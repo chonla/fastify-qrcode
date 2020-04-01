@@ -1,6 +1,6 @@
 {
   "name": "@chonla/fastify-qrcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "QR Code generator plugin for fastify.",
   "main": "index.js",
   "repository": {
