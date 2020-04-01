@@ -1,0 +1,36 @@
+{
+  "name": "@chonla/fastify-qrcode",
+  "version": "1.0.0",
+  "description": "QR Code generator plugin for fastify.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chonla/fastify-qrcode.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "qrcode",
+    "fastify",
+    "plugin",
+    "chonla"
+  ],
+  "author": {
+    "name": "Chonlasith Jucksriporn",
+    "email": "chonlasith@gmail.com",
+    "url": "https://github.com/chonla"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chonla/fastify-qrcode/issues"
+  },
+  "homepage": "https://github.com/chonla/fastify-qrcode#readme",
+  "devDependencies": {
+    "jest": "^25.2.4"
+  },
+  "dependencies": {
+    "fastify-plugin": "^1.6.1",
+    "qrcode": "^1.4.4"
+  }
+}

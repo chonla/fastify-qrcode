@@ -1,0 +1,1 @@
+# Fastify QR Code Plugin
