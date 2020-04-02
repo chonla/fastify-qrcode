@@ -3,6 +3,12 @@ describe('fastify-qrcode', () => {
     fastify.register(require('./index'))
 
     describe('fastify integration', () => {
+        afterAll(() => {
+            if (fastify.server.listening) {
+                fastify.close()
+            }
+        })
+
         it('should register fastify-qrcode into fastify', () => {
             fastify.listen(0, () => {
                 expect(fastify.qrcode).not.toBeUndefined()
@@ -11,6 +17,12 @@ describe('fastify-qrcode', () => {
     })
 
     describe('e2e', () => {
+        afterAll(() => {
+            if (fastify.server.listening) {
+                fastify.close()
+            }
+        })
+
         it('should return correct data url', (done) => {
             const expectedResult = [
                 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4Ae',
