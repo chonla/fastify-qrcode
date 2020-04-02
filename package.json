@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/chonla/fastify-qrcode.git"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": [
     "qrcode",
     "fastify",
@@ -24,6 +27,7 @@
   },
   "homepage": "https://github.com/chonla/fastify-qrcode#readme",
   "devDependencies": {
+    "fastify": "^2.13.0",
     "jest": "^25.2.4"
   },
   "dependencies": {

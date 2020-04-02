@@ -5,7 +5,7 @@ Fastify QR Code plugin utilizes [qrcode](https://github.com/soldair/node-qrcode)
 ## Usage
 
 ```
-const fastify = require('fastify')
+const fastify = require('fastify')()
 
 fastify.register(require('@chonla/fastify-qrcode'))
 
